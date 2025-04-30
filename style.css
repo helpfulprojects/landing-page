@@ -47,3 +47,25 @@ p {
     font-size: 15px;
   }
 }
+
+@media only screen and (max-width: 500px) {
+
+  h1 {
+    font-size: 36px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+
+  h1 {
+    font-size: 26px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+}
