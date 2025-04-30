@@ -1,3 +1,49 @@
+html {
+  font-family: Inter, sans-serif;
+  text-align: center;
+  background-color: rgb(246, 246, 246);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
 h1 {
-  font-size: 76;
+  font-size: 76px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.container {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+  h1 {
+    font-size: 56px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  h1 {
+    font-size: 46px;
+  }
+
+  p {
+    font-size: 15px;
+  }
 }
